@@ -6,13 +6,15 @@ import './App.css'
 function App() {
 
   return (
-    <>
-    <CounterProvider>
-      <h1>React Global Counter</h1>
+<div className="container">
+      <h1>React Context Counter</h1>
+
       <CounterDisplay />
+
       <CounterControls />
-    </CounterProvider>
-    </>
+
+      <CounterDisplay />
+    </div>
   )
 }
 
